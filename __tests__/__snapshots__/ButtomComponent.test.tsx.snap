@@ -1,0 +1,607 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomButton Component Image Style 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderColor": "blue",
+        "borderRadius": 33,
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": "3%",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://example.com/icon.png",
+      }
+    }
+    style={
+      [
+        {
+          "height": 20,
+          "left": 16,
+          "position": "absolute",
+          "resizeMode": "contain",
+          "width": 20,
+        },
+        {
+          "height": 30,
+          "width": 30,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
+
+exports[`CustomButton Component applies custom image style 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderColor": "blue",
+        "borderRadius": 33,
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": "3%",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://example.com/icon.png",
+      }
+    }
+    style={
+      [
+        {
+          "height": 20,
+          "left": 16,
+          "position": "absolute",
+          "resizeMode": "contain",
+          "width": 20,
+        },
+        {
+          "height": 30,
+          "width": 30,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
+
+exports[`CustomButton Component button style 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderColor": "blue",
+        "borderRadius": 33,
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": "3%",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
+
+exports[`CustomButton Component component rendered 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderColor": "blue",
+        "borderRadius": 33,
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": "3%",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
+
+exports[`CustomButton Component image 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderColor": "blue",
+        "borderRadius": 33,
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": "3%",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://example.com/icon.png",
+      }
+    }
+    style={
+      [
+        {
+          "height": 20,
+          "left": 16,
+          "position": "absolute",
+          "resizeMode": "contain",
+          "width": 20,
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
+
+exports[`CustomButton Component isDisabled Props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderColor": "blue",
+        "borderRadius": 33,
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": "3%",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
+
+exports[`CustomButton Component renders correctly with a custom button style 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderColor": "blue",
+        "borderRadius": 33,
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": "3%",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
+
+exports[`CustomButton Component renders correctly with an image 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderColor": "blue",
+        "borderRadius": 33,
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": "3%",
+        "paddingHorizontal": 16,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://example.com/icon.png",
+      }
+    }
+    style={
+      [
+        {
+          "height": 20,
+          "left": 16,
+          "position": "absolute",
+          "resizeMode": "contain",
+          "width": 20,
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
