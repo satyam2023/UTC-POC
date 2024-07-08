@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import CustomButton from '../src/components/Button';
-import { Image, Pressable } from 'react-native';
+import { Image, Pressable, ViewStyle } from 'react-native';
 
 
 describe('CustomButton Component', () => {
@@ -22,7 +22,8 @@ describe('CustomButton Component', () => {
     });
   
     test('button style', () => {
-      const customStyle = { backgroundColor: 'red' };
+      const customStyle ={backgroundColor:'red'}
+      const contStyle={height:10}
       const component = renderer.create(
         <CustomButton text="Click Me" buttonStyle={customStyle} />
       );
@@ -37,7 +38,7 @@ describe('CustomButton Component', () => {
       );
       const image = component.root.findByType(Image);
       expect(image.props.source).toEqual(imageSource);
-      expect(component.toJSON()).toMatchSnapshot();
+    expect(component.toJSON()).toMatchSnapshot();
     });
   
     test('calls onPress ', () => {
