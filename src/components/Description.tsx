@@ -6,6 +6,7 @@ import {
   Pressable,
   StyleSheet,
   Text,
+  TouchableHighlight,
   ViewStyle,
 } from "react-native";
 
@@ -44,6 +45,7 @@ const DescriptionCard = (props: IDescriptionCard) => {
       >
         {props.description}
       </Text>
+    
     </Pressable>
   );
 };

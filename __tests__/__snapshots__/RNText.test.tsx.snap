@@ -1,10 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`  1`] = `
-<View>
-  <Text>
-    Hi 
-    Satyam
-  </Text>
-</View>
+<Text
+  style={
+    {
+      "fontSize": 20,
+      "fontweight": "400",
+    }
+  }
+>
+  Satyam
+</Text>
 `;

@@ -1,10 +1,24 @@
+// InputText.test.js
 import React from 'react';
-import renderer, { act, create } from 'react-test-renderer';
-import TextInputComponent from '../src/components/InputText';
+import { render, fireEvent } from '@testing-library/react-native';
+import InputText from '../src/components/InputText';
 
-test('it should update text input value on change', () => {
-    const onChange=jest.fn((text:string)=>text)
-  const component= renderer.create(<TextInputComponent />);  
- expect(component.toTree()).toMatchSnapshot();
 
+test('it renders correctly and handles text input', () => {
+  const handleChangeText = jest.fn();
+  const placeholderText = "Enter text";
+
+  const { getByPlaceholderText } = render(
+    <InputText
+      value="hello"
+      onChangeText={handleChangeText}
+      placeholder={placeholderText}
+    />
+  );
+
+  const input = getByPlaceholderText(placeholderText);
+  expect(input).toBeTruthy();
+  fireEvent.changeText(input, 'test input');
+  expect(handleChangeText).toHaveBeenCalledWith('test input');
 });
+
